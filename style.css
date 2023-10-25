@@ -98,5 +98,33 @@ span::before,span::after{
     height: 30px;
     top: 22px;
     left: 210px;
-    background: #ff2433;
+    background: orange;
+}
+.planet5::before{
+    width: 40px;
+    height: 40px;
+    top: -18px;
+    left: 170px;
+    background: #ffb624;
+}
+.planet6::before{
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    left: -7px;
+    background: #ffb84d;
+}
+.planet6::after{
+    width: 80px;
+    height: 20px;
+    top: 115px;
+    left: -21px;
+    background: #ffb84d;
+}
+.planet7::before{
+    width: 37px;
+    height: 37px;
+    bottom: 80px;
+    left: 30px;
+    background: #4d6bff;
 }
