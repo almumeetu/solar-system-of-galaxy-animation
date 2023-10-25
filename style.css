@@ -72,6 +72,14 @@ span::before,span::after{
     border-radius: 50%;
 }
 
+@keyframes animate{
+    0%{
+        transform: translate(-50%,-50%) rotate(0);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
 .planet1::before{
     width: 20px;
     height: 20px;
@@ -127,4 +135,11 @@ span::before,span::after{
     bottom: 80px;
     left: 30px;
     background: #4d6bff;
+}
+.planet8::before{
+    width: 41px;
+    height: 41px;
+    top: 5px;
+    right: 140px;
+    background: #d04dff;
 }
